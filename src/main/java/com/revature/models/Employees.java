@@ -1,8 +1,9 @@
-package com.models;
+package com.revature.models;
 
+import com.revature.annotations.*;
 
-public class Employee {
-	
+@Table(tableName="employees")
+public class Employees {
 	private int empId;
 	private String firstName;
 	private String lastName;
@@ -10,6 +11,4 @@ public class Employee {
 	private String passWord;
 	private int age;
 	private boolean active;
-	
-	
 }
