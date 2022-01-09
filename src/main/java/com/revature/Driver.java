@@ -15,7 +15,15 @@ public class Driver {
 
 //		CI.listFields(Employees.class);
 //		System.out.println(CI.getClassTableName(Employees.class));
-		DB.MakeTableReflection(Employees.class);
+//		DB.MakeTableReflection(Employees.class);
+		
+//		System.out.println(CI.getClassTableName(Employees.class));
+		
+		
+//		"CREATE TABLE employees (emp_id SERIAL primary key, first_name VARCHAR, 
+//		System.out.println(DB.testSqlString(Employees.class));
+		
+		CI.listPublicMethods(Employees.class);
 
 	}
 

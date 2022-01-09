@@ -5,3 +5,4 @@
 2022-01-08 14:08:33 INFO  revature.util.ConnectionUtil:90 - DB connection established
 2022-01-08 14:08:33 ERROR revature.database.MakeDatabaseCalls:76 - Unable to make table - SQL exception found
 2022-01-08 14:33:32 INFO  revature.util.ConnectionUtil:90 - DB connection established
+2022-01-09 14:12:53 INFO  revature.util.ConnectionUtil:90 - DB connection established
