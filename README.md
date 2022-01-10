@@ -9,16 +9,13 @@ _This project is meant to show how to use the features from the SimpleORM projec
 
 ## Technologies Used
 
-* _Mavin_
+* _Java 8_
+* _Apache Mavin_
 * _postgreSQL_
 
 ## Setup/Installation
 
 * _Requires the dependency from the following github repo: [Simple_ORM](https://github.com/simpledimplejohn/simple_orm_p1)_
-
-## Known Bugs
-
-## Future Changes
 
 ## License
 

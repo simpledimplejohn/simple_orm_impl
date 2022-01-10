@@ -1,9 +1,7 @@
 package com.revature;
 
-import java.util.Arrays;
-
 import com.revature.database.MakeDatabaseCalls;
-import com.revature.inspection.ClassInspector;
+import com.revature.models.Customer;
 import com.revature.models.Employees;
 
 public class Driver {
@@ -17,8 +15,11 @@ public class Driver {
 
 		
 		
-//		System.out.println(DB.createTableFromClass(Employees.class));
-		System.out.println(DB.createSqlString(Employees.class));
+		System.out.println(DB.createTableFromClass(Employees.class));
+//		System.out.println(DB.createSqlString(Employees.class));
+		
+//		System.out.println(DB.createSqlString(Employees.class));
+		
 
 
 	}
